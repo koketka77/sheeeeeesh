@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 400px;
+    margin: 150px auto;
+}
+.form input{
+    width: 80%;
+}
+
+.form button{
+    width: 20%;
+    cursor: pointer;
+    margin-left: 2px;
+}
+.form input,.form button{
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.544);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+table{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid;
+    padding: 10px;
+}
+body{
+    animation-name: bg;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    background: url(https://i.pinimg.com/originals/fe/5f/98/fe5f98d9e8b94595bb439f59744b2b57.jpg);
+background-position: 150%;
+background-repeat: no-repeat;
+}
+@keyframes bg {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 100% 40%;
+    }
+    
+}
